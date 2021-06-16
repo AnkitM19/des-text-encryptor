@@ -18,7 +18,7 @@ try {
 generateSymmetricKey();
 
 
-inputMessage=JOptionPane.showInputDialog(null, "program created by jatin sharma data you want to encrypt");
+inputMessage=JOptionPane.showInputDialog(null, "program created by Ankit data you want to encrypt");
 byte[] ibyte = inputMessage.getBytes();
 byte[] ebyte=encrypt(raw, ibyte);
 String encryptedData = new String(ebyte);
